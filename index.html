@@ -4,20 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Food</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+           border-style: solid; 
+           border-color: rgb(27, 59, 241);
+            }
+            .navbar-custom {
+            background-color: #300404; /* Custom color */
+        }
+    </style>
 </head>
-<body>
-    <h1>All about Food and Cheesecakes</h1>
-    <div>
-            <!--below are three links that allow you to get in between all three pages-->
+<body class="container">
+    
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+        <a class="navbar-brand" href="index.html">Cooking With Ottomus Prime</a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Aboutthechef.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="desserts.html">Desserts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                       Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Cheesecakes</a>
+                        <a class="dropdown-item" href="#">Sammies</a>
+                        <a class="dropdown-item" href="#">Call the Fried Dept</a>
+                        <a class="dropdown-item" href="#">Everything Else</a>
 
-        <a href="index.html">All about Food</a> <br>
-        <a href="Aboutthechef.html">About the chef</a> <br>
-        <a href="SimplyCheesecake.html">Simple Cheesecake</a> <br>
-
-    </div>
+                    </div>
+                </li>
+            </ul>
+        
+        </div>
+    </nav>
+    
+              
+   
     
 
-    
 
+    <script src="node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
 </body>
 </html>

@@ -1,9 +1,80 @@
+
+
 body {
     font-family: Arial;
-    color: red;
+    color: blue;
     margin: 0;
+    min-height: 100vh;
+    min-width: 100vh;
 
 }
+/*below is some formatting for my h1 header on main page */
 h1 {
-    color: goldenrod;
+    color: blue;
+    text-align: left;
+    border-color: red;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.ctchzcake { /*this is where i inserted the background image on homepage */
+    background-image: url("./cinnamon\ toast\ cheesecake.JPEG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    min-width: 60%;
+
+}
+
+.inline-image {  /*these are the lines of style to add optimus prime logo in between header  */
+    vertical-align: middle; 
+    width: 65px;
+    height: auto;
+    margin: 0 5px;
+    
+}
+.border-heading { /*THIS IS WHAT IM TRYING TO ADD TO HEADER ON INDEX.HTML PAGE why wont this show up or change on my page??? */
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: red;
+    
+}
+.container { /* This is how I moved my anchors/links to middle of the page and includes formatting and styles*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    text-size-adjust: 50px;
+    
+} /*below are some formatting for my anchor tags for the website  */
+a{
+    color: blue;
+    text-decoration: none; /* this removed the underline from anchor tags, I don't know if i should leave this*/
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: red;
+}
+a:visited {
+    color: brown;
+}
+
+/* This was to move the social links to the top of the about the chef page */
+.social-links { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
 }
