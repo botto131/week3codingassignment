@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simply Cheesecake</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
     <!--below are three links that allow you to get in between all three pages-->
@@ -21,12 +22,42 @@
     <img height="200px" src="cinnamon toast crunch cheesecake.JPG">
     <img height="200px" src="reeses cheesecake.jpg">
     <p>Most Common ingredients used in a basic cheesecake</p>
-    <ol>
-        <li>Cream Cheese</li>
-        <li>Sour Cream</li>
-        <li>Sugar</li>
-        <li>Graham Crackers</li>
-        <li>Butter</li>
+    
+    <div class="container mt-5">
+        <h2>Voting for Top Flavor</h2>
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Cheesecake Type</th>
+                    <th scope="col">First Place Votes</th>
+                    <th scope="col">Second Place Votes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Smores</td>
+                    <td>10</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Cinnamon Toast Crunch</td>
+                    <td>8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Strawberry</td>
+                    <td>6</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     
 </body>
 </html>
