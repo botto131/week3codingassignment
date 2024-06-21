@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>All About Food</title>
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <style>
-            div {
-               border-style: solid; 
-               border-color: rgb(27, 59, 241);
-                }
-                .navbar-custom {
-                background-color: #300404; /* Custom color */
-            }
-        </style>
-    </head>
-    <!--below is navbar which is added throughout my website-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Food</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: solid;
+            border-color: rgb(27, 59, 241);
+        }
+
+        .navbar-custom {
+            background-color: #300404;
+            /* Custom color */
+        }
+    </style>
+</head>
+<!--below is navbar which is added throughout my website-->
+
 <body class="container"></body>
-    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
-        <a class="navbar-brand" href="index.html">Cooking With Ottomus Prime</a> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Aboutthechef.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="desserts.html">Desserts</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                       Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Cheesecakes</a>
-                        <a class="dropdown-item" href="#">Sammies</a>
-                        <a class="dropdown-item" href="#">Call the Fried Dept</a>
-                        <a class="dropdown-item" href="#">Everything Else</a>
+<nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+    <a class="navbar-brand" href="index.html">Cooking With Ottomus Prime</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutthechef.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="desserts.html">Desserts</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Cheesecakes</a>
+                    <a class="dropdown-item" href="#">Sammies</a>
+                    <a class="dropdown-item" href="#">Call the Fried Dept</a>
+                    <a class="dropdown-item" href="#">Everything Else</a>
 
-                    </div>
-                </li>
-            </ul>
-        
-        </div>
-    </nav>
-    
-              
-   
-    
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</nav>
 
 
-    <script src="node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-    <h2>About the Chef</h2>
-   
-    <!--here is a table with fake links to a facebook and insta profile that don't exist but they are there for the assignment purpost-->
-    <table class="social-links">
-        <tr>
-            <th>Links to Socials</th>
-            
-        </tr>
-        <tr>
-            
-            <td><a href="#">Visit his Facebook</a></td>
-        </tr>
-        <tr>
-            
-            <td><a href="#">Visit his Instagram</a></td>
-        </tr>
-    </table>
 
-    <img height="150px" src="thechef.jpg">
-    <p>Here is a picture of the chef behind all the goodness and sweets and cheesecakes, oh My
-       when Brandon isn't in the kitchen he likes traveling and going to concerts.</p>
+
+
+<script src="node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+<h2>About the Chef</h2>
+
+<!--here is a table with fake links to a facebook and insta profile that don't exist but they are there for the assignment purpost-->
+<table class="social-links">
+    <tr>
+        <th>Links to Socials</th>
+
+    </tr>
+    <tr>
+
+        <td><a href="#">Visit his Facebook</a></td>
+    </tr>
+    <tr>
+
+        <td><a href="#">Visit his Instagram</a></td>
+    </tr>
+</table>
+
+<img height="150px" src="thechef.jpg">
+<p>Here is a picture of the chef behind all the goodness and sweets and cheesecakes, oh My
+    when Brandon isn't in the kitchen he likes traveling and going to concerts.</p>
 <!--below is the form for contacting myself for info on cheesecake recipes-->
-<div class="mb-3">
-    <label for="email" class="form-label">Enter Email address</label>
-    <input type="email" class="form-control" id="email" placeholder="type email here">
-  </div>
-  <div class="mb-3">
-    <label for="recipereqd" class="form-label">Tell me what recipe you are requesting:</label>
-    <textarea class="form-control" id="recipereqd" rows="3"></textarea>
-  </div>>
-    
-</body>
+<div class="container mt-5">
+    <form>
+        <div class="mb-3">
+            <label for="email" class="form-label">Enter Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="type email here">
+        </div>
+        <div class="mb-3">
+            <label for="recipereqd" class="form-label">Tell me what recipe you are requesting:</label>
+            <textarea class="form-control" id="recipereqd" rows="3"></textarea>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+        </body>
+
 </html>
